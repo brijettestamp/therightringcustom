@@ -1,17 +1,50 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   overflow: hidden;
+  margin: 0%;
+  padding: 0%;
 }
+
+.nav--bar {
+  position: absolute;
+  display: flex;
+  align-content: space-around;
+}
+
+.button--purchase {
+
+}
+
 #webgi-canvas {
   width: 100%;
   height: 100%;
-  border-radius: 0.5rem;
-}
-#webgi-canvas-container{
-  width: 80vw;
-  height: 80vh;
-  margin: 10vh 10vw;
-  border-radius: 0.5rem;
+  }
 
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+#webgi-canvas-container{
+  width: 100vw;
+  height: 100vh;
 }
+
+.metal--container {
+ position: fixed;
+  top: 50%;
+}
+
+.metal--options {
+  list-style-type:none;
+  
+}
+
+.button--colors {
+  background: repeating-linear-gradient(45deg, gold, darkgoldenrod 100px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.yellow Gold 
+{background: repeating-linear-gradient(45deg, gold, darkgoldenrod 100px)}
+
+.Rose Gold 
+{background: repeating-linear-gradient(45deg, orange, red, darkgoldenrod)}
