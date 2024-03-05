@@ -31,20 +31,36 @@ body {
 }
 
 .metal--options {
-  list-style-type:none;
-  
+  list-style: none; 
 }
 
 .button--colors {
-  background: repeating-linear-gradient(45deg, gold, darkgoldenrod 100px);
   width: 50px;
   height: 50px;
   border-radius: 50px;
   margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 0;
+  margin-bottom: 10px;
+  cursor: pointer; 
 }
 
-.yellow Gold 
-{background: repeating-linear-gradient(45deg, gold, darkgoldenrod 100px)}
 
-.Rose Gold 
-{background: repeating-linear-gradient(45deg, orange, red, darkgoldenrod)}
+.button--colors:hover{
+      /* filter: drop-shadow(2px 4px 6px black); */
+      filter: drop-shadow(2px 4px 6px black);
+      transform: scale(1.1);
+      transition:all 0.4s ease-in;
+}
+
+.Gold {
+  background: linear-gradient(45deg, darkgoldenrod,  transparent);
+}
+
+.rosegold {
+  background: linear-gradient(45deg, peru,   transparent);
+}
+
+.Platinum {
+  background: linear-gradient(45deg, dimgray,silver, dimgray, gray,silver, transparent);
+}

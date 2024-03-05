@@ -26,6 +26,7 @@ import {
 } from "webgi";
 import "./styles.css";
 
+
 async function setupViewer(){
 
     // Initialize the viewer
