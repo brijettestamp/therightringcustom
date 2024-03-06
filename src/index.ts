@@ -32,6 +32,7 @@ async function setupViewer(){
     // Initialize the viewer
     const viewer = new ViewerApp({
         canvas: document.getElementById('webgi-canvas') as HTMLCanvasElement,
+
     })
 
     // Add plugins individually.
@@ -65,6 +66,11 @@ async function setupViewer(){
     // Import and add a GLB file.
     await viewer.load("./assets/buildaring.glb")
 
+    // CUSTOMIZE
+    const sections =document.querySelector('.container') as HTMLElement
+    document.querySelector('.button--customize')?.addEventListener('click') () => {
+        
+    }
     // Load an environment map if not set in the glb file
     // await viewer.setEnvironmentMap("./assets/environment.hdr");
 
@@ -76,3 +82,4 @@ async function setupViewer(){
 }
 
 setupViewer()
+
